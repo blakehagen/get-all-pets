@@ -1,0 +1,24 @@
+.container {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #EEEEEE;
+  position: fixed;
+  top: 0;
+  .logo {
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 60px;
+    img {
+      height: 100%;
+    }
+  }
+  .title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    cursor: default;
+  }
+}
