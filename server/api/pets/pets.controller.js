@@ -3,7 +3,7 @@ const models = require('../../models/index'); // eslint-disable-line jsx-a11y/hr
 module.exports = {
 
   createNewPet(req, res) {
-    models.Pets.create(req.body)
+    models.Pet.create(req.body)
       .then((pet) => {
         return res.status(200).json({ pet, success: true });
       })
