@@ -1,3 +1,4 @@
+/server/config/secrets
 /dist
 /server/public
 node_modules

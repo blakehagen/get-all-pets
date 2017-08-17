@@ -1,10 +1,8 @@
-'use strict';
-
 // EXPRESS //
-const express    = require('express');
+const express = require('express'); // eslint-disable-line jsx-a11y/href-no-hash
 const bodyParser = require('body-parser');
-const cors       = require('cors');
-const logger     = require('morgan');
+const cors = require('cors');
+const logger = require('morgan');
 
 module.exports = () => {
   const app = express();
@@ -18,7 +16,7 @@ module.exports = () => {
 
   app.use(cors());
   app.use(bodyParser.json());
-  app.use(bodyParser.urlencoded({extended: true}));
+  app.use(bodyParser.urlencoded({ extended: true }));
 
   return app;
 };
