@@ -1,0 +1,29 @@
+.icon {
+  margin-right: 10px;
+  height: 48px;
+  width: 48px;
+  img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .icon {
+    margin-right: 6px;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .icon {
+    height: 26px;
+    width: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: none;
+  }
+}

@@ -2,23 +2,70 @@
   height: 70px;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #EEEEEE;
   position: fixed;
   top: 0;
-  .logo {
-    margin-left: 20px;
+}
+
+.titleImages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  cursor: default;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.buttonContainer {
+  margin-right: 40px;
+}
+
+.mobileIcon {
+  display: none;
+}
+
+@media screen and (max-width: 690px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mobileIcon {
+    display: block;
     margin-right: 10px;
-    height: 60px;
+    height: 40px;
+    width: 40px;
     img {
       height: 100%;
     }
   }
+}
+
+@media screen and (max-width: 460px) {
+  .titleImages {
+    margin-left: 20px;
+  }
   .title {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 34px;
-    cursor: default;
+    font-size: 24px;
+  }
+
+  .buttonContainer {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .title {
+    font-size: 18px;
   }
 }
