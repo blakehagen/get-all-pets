@@ -1,4 +1,4 @@
-const path = require('path'); // eslint-disable-line jsx-a11y/href-no-hash
+const path = require('path');
 const config = require('./webpack.config');
 const express = require('./server/config/express.js');
 

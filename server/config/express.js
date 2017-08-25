@@ -1,5 +1,5 @@
 // EXPRESS //
-const express = require('express'); // eslint-disable-line jsx-a11y/href-no-hash
+const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const logger = require('morgan');

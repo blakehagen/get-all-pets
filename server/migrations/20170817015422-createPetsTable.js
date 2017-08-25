@@ -1,4 +1,4 @@
-module.exports = { // eslint-disable-line jsx-a11y/href-no-hash
+module.exports = {
   up(queryInterface, Sequelize) {
     return queryInterface.createTable(
       'pets',

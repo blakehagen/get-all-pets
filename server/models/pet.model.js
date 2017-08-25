@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataTypes) => { // eslint-disable-line jsx-a11y/href-no-hash
+module.exports = (sequelize, DataTypes) => {
   const Pet = sequelize.define('Pet', {
     type: DataTypes.TEXT,
     breed: DataTypes.TEXT,

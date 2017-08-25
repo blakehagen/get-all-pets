@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+// import PropTypes from 'prop-types';
 import TopBar from 'components/TopBar';
 import styles from './app.scss';
 
@@ -9,14 +10,14 @@ const App = (props) => {
       <TopBar />
       <div className={styles.main}>
         {/* {props.children} */}
-        {/*this is the app*/}
+        {/* this is the app */}
       </div>
     </div>
   );
 };
 
-App.propTypes = {
-  children: PropTypes.object,
-};
+// App.propTypes = {
+//   children: PropTypes.object,
+// };
 
 export default App;

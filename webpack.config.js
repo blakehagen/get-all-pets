@@ -1,4 +1,4 @@
-const _ = require('lodash'); // eslint-disable-line jsx-a11y/href-no-hash
+const _ = require('lodash');
 const autoprefixer = require('autoprefixer');
 const path = require('path');
 const webpack = require('webpack');

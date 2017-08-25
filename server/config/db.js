@@ -1,5 +1,5 @@
 const dbUrl = require('./secrets/dbSecret');
-module.exports = { // eslint-disable-line jsx-a11y/href-no-hash
+module.exports = {
   development: {
     url: dbUrl.db,
     dialect: 'postgres',

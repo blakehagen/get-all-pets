@@ -1,4 +1,4 @@
-const fs = require('fs'); // eslint-disable-line jsx-a11y/href-no-hash
+const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
 const db = require('../config/db');
