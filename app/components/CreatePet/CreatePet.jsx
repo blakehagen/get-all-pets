@@ -1,5 +1,6 @@
 import React from 'react';
 import autoBind from 'react-autobind';
+import Form from './Form';
 
 import styles from './createPet.scss';
 
@@ -10,9 +11,11 @@ export default class CreatePet extends React.Component {
   }
 
   render() {
-    console.log('render create pet');
     return (
-      <div className={styles.container}>Create a new pet...</div>
+      <div className={styles.container}>
+        <h2 className={styles.title}>Create a New Pet</h2>
+        <Form />
+      </div>
     );
   }
 }

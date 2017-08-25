@@ -1,0 +1,20 @@
+
+.textField {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  border: 1px solid #FFFFFF;
+  border-bottom: 1px solid #CCCCCC;
+  border-radius: 0;
+  outline: 0;
+  width: 270px;
+  height: 38px;
+  line-height: 38px;
+  background: #FFF;
+  color: #455A64;
+  padding: 0 12px;
+  margin-bottom: 14px;
+  &:focus {
+    border-bottom: 1px solid #45AB7F;
+  }
+}
