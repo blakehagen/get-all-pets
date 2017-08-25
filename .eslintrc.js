@@ -11,10 +11,16 @@ module.exports = {
       'jsx': true
     }
   },
+  'plugins': [
+    'jsx-a11y',
+    'import',
+    'react',
+  ],
   'extends': [
-    'airbnb'
+    'airbnb',
   ],
   'rules': {
     'global-require': 'off',
+    "jsx-a11y/href-no-hash": [ 0, [ "Link", "Anchor" ] ], // issue with the packages
   }
 };

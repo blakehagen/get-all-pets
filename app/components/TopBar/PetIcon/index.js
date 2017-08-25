@@ -1,1 +1,1 @@
-export {default} from './PetIcon.jsx';
+export { default } from './PetIcon.jsx';
