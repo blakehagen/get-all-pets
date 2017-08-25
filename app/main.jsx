@@ -5,6 +5,8 @@ import { Provider } from 'mobx-react';
 // import Favicon from 'react-favicon';
 
 import App from 'components/App';
+import Home from 'components/Home';
+import CreatePet from 'components/CreatePet';
 
 import styles from './main.scss';
 
@@ -22,7 +24,8 @@ ReactDOM.render(
         }}
       >
         <Route path="/" component={App}>
-          <IndexRoute component={App} />
+          <IndexRoute component={Home} />
+          <Route path="create-pet" component={CreatePet} />
         </Route>
 
       </Router>

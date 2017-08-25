@@ -7,6 +7,8 @@
   border-bottom: 1px solid #EEEEEE;
   position: fixed;
   top: 0;
+  z-index: 99999;
+  background: #FFFFFF;
 }
 
 .titleImages {
@@ -20,7 +22,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 34px;
-  cursor: default;
+  cursor: pointer;
   margin-right: 20px;
   margin-left: 10px;
 }
@@ -31,6 +33,30 @@
 
 .mobileIcon {
   display: none;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 @media screen and (max-width: 690px) {

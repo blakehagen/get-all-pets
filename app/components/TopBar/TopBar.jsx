@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router';
 import styles from './topBar.scss';
-
 import Button from '../UI/Button';
 import PetIcon from './PetIcon';
 
@@ -23,7 +23,12 @@ const TopBar = () => {
           <img src={dog} alt="dog-icon" />
         </div>
 
-        <h1 className={styles.title}>Get All Pets</h1>
+        <h1 className={styles.title}>
+          <Link to="/">
+            <span>Get All Pets</span>
+          </Link>
+        </h1>
+
 
         <PetIcon icon={frog} />
         <PetIcon icon={turtle} />
@@ -31,7 +36,9 @@ const TopBar = () => {
       </div>
 
       <div className={styles.buttonContainer}>
-        <Button buttonName="Create New Pet" />
+        <Link to="/create-pet">
+          <Button buttonName="Create New Pet" />
+        </Link>
       </div>
     </div>
   );
