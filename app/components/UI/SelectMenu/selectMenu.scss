@@ -1,0 +1,40 @@
+.selectDropdown {
+  width: 300px !important;
+  height: 38px !important;
+  border: none !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+// *************************************** //
+// **** SELECT DROP-DOWN OVERRIDES **** //
+// *************************************** //
+
+:global(.Select-control) {
+  color: #455A64 !important;
+  border: 1px solid #FFFFFF !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #CCCCCC !important;
+  //&:focus {
+  //  outline: 1px solid red;
+  //}
+}
+
+:global(.Select-placeholder) {
+  color: #BBBBBB !important;
+  //font-family: 'Open Sans', sans-serif !important;
+  font-weight: 100 !important;
+  font-size: 16px !important;
+  outline: none !important;
+}
+
+:global(.Select-value-label) {
+  color: #455A64 !important;
+  font-weight: 100 !important;
+  font-size: 16px !important;
+}
+
+:global(.Select-option) {
+  color: #455A64 !important;
+  font-weight: 100 !important;
+  font-size: 16px !important;
+}
